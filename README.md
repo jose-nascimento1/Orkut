@@ -5,7 +5,7 @@ An interface with HTML5 and CSS3 by José Nascimento.
 
 🔗 [Click here to access the project](https://projects-1bcba.web.app/)
 
-![image](./img/screenshots/Captura%20da%20Web_5-2-2023_05555_127.0.0.1.jpeg)
+![image]()
 
 ## Author
 

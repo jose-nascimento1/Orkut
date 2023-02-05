@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    background-color: #ffd3f8;
+    font-family: Tahoma, sans-serif;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.logo img {
+    width: 300px;
+    height: 100px;
+}
+.container {
+    background-color: #FFF9FE;
+    width: 40vh;
+    height: 70%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 10px 9px 24px 3px rgba(97, 96, 96, 0.7);
+    border: 1px solid silver;
+}
+.fields {
+    margin: 5% 10%;
+}
+#field-title {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: darkslategray;
+}
+#field-title span {
+    color: #E8258E;
+}
+.fields-textbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+}
+.fields-textbox input {
+    height: 40px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.fields-remenber {
+    margin-bottom: 30px;
+    color:darkslategray;
+}
+#btn-login {
+    width: 100%;
+    border: none;
+    background-color: #E8258E;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.fields-recover {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 80px;
+}
+.fields-recover a {
+    text-decoration: none;
+    color:darkslategray;
+}
+.fields-create {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.fields-create p {
+    font-weight: bold;
+    color:darkslategray;
+}
+.fields-create a {
+    text-decoration: none;
+    color:#E8258E;
+}
+footer {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 70px;
+}
+footer a {
+    justify-content: space-around;
+    text-decoration: none;
+    color: #E8258E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
